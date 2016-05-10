@@ -1,6 +1,9 @@
 $ = jQuery
 $(document).ready(function(){
-  Cufon.replace('h1');
+  Cufon.replace('h1', {
+    hover: true,
+    hoverables: { h1: true }
+  });
   $(".insta-slider .slide").first().show();
   setInterval(function(){
     if($(".insta-slider .slide:visible img").attr("src") == $(".insta-slider .slide img").last().attr("src")){
@@ -14,11 +17,6 @@ $(document).ready(function(){
       })
     }
   }, 5000)
-  $(".top").hover(function() {
-    $(".bio").slideDown(1200);
-  }, function() {
-    $(".bio").slideUp(1200);
-  });
   $("h1").click(function(){
     $(".bio").slideToggle(1200);
   });

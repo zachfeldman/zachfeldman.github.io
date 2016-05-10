@@ -19,6 +19,10 @@ h1{
   cursor: pointer;
 }
 
+h1:hover{
+  color: red;
+}
+
 .insta-slider{
   max-width: 300px;
   margin: 0 auto;
@@ -124,4 +128,24 @@ a{
   color: red;
   text-decoration: none;
   font-weight: 700;
+}
+
+.speaking{
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 36px;
+}
+
+.speaking h2{
+  margin-bottom: .5em;
+}
+
+.speaking li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.speaking li a{
+  font-weight: 300;
 }

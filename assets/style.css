@@ -1,12 +1,16 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:700';
+
 body{
   background-color: rgb(40,40,40);
   color: white;
-  font-family: "Arial", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .wrapper{
   max-width: 960px;
   margin: 36px auto;
+  text-align: center;
 }
 
 h1{
@@ -17,9 +21,10 @@ h1{
   width: 350px;
   margin: 12px auto;
   cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
 }
 
-h1:hover{
+.home h1:hover{
   color: red;
 }
 
@@ -125,9 +130,13 @@ img{
 }
 
 a{
-  color: red;
+  color: rgb(128, 188, 163);
   text-decoration: none;
   font-weight: 700;
+}
+
+h1 a, h1 a:visited{
+  color: red;
 }
 
 .speaking{
@@ -135,6 +144,7 @@ a{
   max-width: 300px;
   margin: 0 auto;
   margin-top: 36px;
+  padding-left: 0;
 }
 
 .speaking h2{
@@ -148,4 +158,122 @@ a{
 
 .speaking li a{
   font-weight: 300;
+}
+
+.center{
+  width: 350px;
+  margin: 0 auto;
+}
+
+a.exciting-btn{
+  text-align: center;
+}
+
+.myButton {
+  -moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+  box-shadow:inset 0px 1px 0px 0px #cf866c;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #bc3315));
+  background:-moz-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background:-webkit-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background:-o-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background:-ms-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#bc3315',GradientType=0);
+  background-color:#d0451b;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+  border:1px solid #942911;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #854629;
+}
+.myButton:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #d0451b));
+  background:-moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background:-webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background:-o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background:-ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b',GradientType=0);
+  background-color:#bc3315;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+
+
+.icons{
+  width: 690px;
+  margin: 0 auto;
+}
+
+.icons .icon{
+  width: 150px;
+  height: 100px;
+  border: 4px solid white;
+  text-align: center;
+  display: block;
+  margin: 24px;
+  padding: 12px;
+  float: left;
+}
+
+.fa{
+  margin: 6px 36px;
+  margin-bottom: 4px;
+  color: white;
+  font-size: 4em;
+}
+
+.clear{
+  clear: both;
+}
+
+
+.center-ig{
+  padding-top: 48px;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.ig-photo{
+  float: left;
+  width: 225px;
+  margin-right: 12px;
+}
+
+.last-ig-photo{
+  margin-right: 0;
+}
+
+
+.projects h3{
+  font-size: 1.4em;
+}
+
+p{
+  width: 450px;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.9em;
+  font-size: 1.15em
+}
+
+.float-parent{
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+.float-left{
+  float: left;
+  margin-right: 38px;
 }

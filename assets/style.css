@@ -299,5 +299,27 @@ p{
   }
   h1{
     font-size: 2.2em;
+    width: initial;
+  }
+  .title{
+    width: 275px;
+    margin: 0 auto;
+  }
+  .float-parent{
+    width: initial;
+  }
+  .ig-photo{
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+  .center-ig{
+    width: initial;
+  }
+  .last-ig-photo{
+    margin-right: inherit;
+  }
+  .yt-video{
+    width: 90%;
   }
 }

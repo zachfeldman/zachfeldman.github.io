@@ -286,6 +286,9 @@ p{
 
 
 @media (max-width: 600px) {
+  img{
+    width: 100%;
+  }
   .icons {
     width: 90%;
   }

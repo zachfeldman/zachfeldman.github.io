@@ -328,3 +328,10 @@ p{
     width: 90%;
   }
 }
+
+.pet-button{
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 3em;
+  cursor: pointer;
+}

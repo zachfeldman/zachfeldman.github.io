@@ -335,3 +335,10 @@ p{
   font-size: 3em;
   cursor: pointer;
 }
+
+ @media screen and (max-width: 600px) {
+    .pet-buttons {
+      width: 90%; /* Increase width for small screens */
+      text-align: center; /* Center text for small screens */
+    }
+ }

@@ -337,7 +337,7 @@ p{
 }
 
  @media screen and (max-width: 600px) {
-    .pet-buttons a {
+    .pet-buttons {
       width: 70%; /* Increase width for small screens */
       margin: 0 auto;
       text-align: center; /* Center text for small screens */

@@ -343,5 +343,6 @@ p{
     }
    .pet-button {
       font-size: 2em;
+      display: inline-block;
    }
  }

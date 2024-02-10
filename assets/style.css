@@ -342,4 +342,7 @@ p{
       margin: 0 auto;
       text-align: center; /* Center text for small screens */
     }
+   .pet-button {
+      font-size: 2em;
+   }
  }

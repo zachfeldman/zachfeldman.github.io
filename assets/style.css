@@ -338,12 +338,10 @@ p{
 
  @media screen and (max-width: 600px) {
     .pet-buttons {
-      width: 200px; /* Increase width for small screens */
-      margin: 0 auto;
-      text-align: center; /* Center text for small screens */
+      display: flex;
+      justify-content: center;
     }
    .pet-button {
       font-size: 2em;
-      display: inline-block;
    }
  }
